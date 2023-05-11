@@ -13,6 +13,7 @@ suspend fun main() = Korge(
     windowSize = Size(512, 512),
     backgroundColor = Colors["#2b2b2b"],
     displayMode = KorgeDisplayMode(ScaleMode.SHOW_ALL, Anchor.TOP_LEFT, clipBorders = false),
+    forceRenderEveryFrame = false,
 ) {
     val sceneContainer = sceneContainer()
 
