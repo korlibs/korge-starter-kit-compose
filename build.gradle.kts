@@ -38,14 +38,6 @@ korge {
 	serializationJson()
 }
 
-kotlin {
-    jvm {
-        compilations.all {
-            kotlinOptions.jvmTarget = "11"
-        }
-    }
-}
-
 dependencies {
     add("commonMainApi", project(":deps"))
     //add("commonMainApi", project(":korge-dragonbones"))
