@@ -58,7 +58,7 @@ private fun MainApp(width: Int, height: Int) {
         count += digit
     }
 
-    VStack(width.toFloat(), adjustSize = true) {
+    VStack(width.toDouble(), adjustSize = true) {
         Text("$count", color)
         HStack {
             Button("-") { count-- }
